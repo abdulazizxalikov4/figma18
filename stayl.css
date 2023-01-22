@@ -1,5 +1,8 @@
-/* 1 nav qismidagi ni togirlash kerrak 
-2 sec-1 qisminiyam togirlash kerrak */
+/*  1) nav qismidagi ni togirlash kerrak 
+    2) sec-1 qisminiyam togirlash kerrak */
+
+/*  2.1) nav qismi 
+    2.2) sec-1 dagi img qismi  */
 
 *{
     margin: 0;
@@ -7,20 +10,8 @@
     color: black;
 }
 
-@media all and (max-width:767px) {
-    .id header .container .row .col-md-6 img {
-        width: 75px;
-    }
-}
-
-.id header .container .row .col-md-5 ul li a {
+.id header .container .row .col ul li a {
     color: black;
-}
-
-@media all and (max-width:767px) {
-    .id header .container .row .col ul li a {
-        font-size: 13px;
-    }
 }
 
 .id header .container .row .col ul li .button-1 {
@@ -33,6 +24,19 @@
     background: rgba(192, 192, 192, 0.445);
     border: none;
     color: black;
+}
+
+
+@media all and (min-width:0px) and (max-width:767px) {
+    .id header .container .row .col-md-6 img {
+        width: 75px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .id header .container .row .col ul li a {
+        font-size: 12px;
+    }
 }
 
 /* section section section section section */
@@ -59,11 +63,30 @@
     color: white;
 }
 
+@media all and (min-width:768px) and (max-width:1023px) {
+    .id .sec-1 .container .row .col-md-6 h1 {
+        font-size: 48px;
+    }
+}
 
+/* @media all and (min-width:768px) and (max-width:1023px) {
+    .id .sec-1 .container .row:nth-child(1) .col img {
+        margin-top: 500px;
+    }   
+} */
 
 @media all and (max-width:767px) {
     .id .sec-1 .container .row .col-md-6 h1 {
         font-size: 25px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .id .sec-1 .container .row:nth-child(1) .col img {
+        width: 180px;
+        margin-left: 170px;
+        position: absolute;
+        top: 180px;
     }
 }
 
@@ -81,20 +104,15 @@
     }
 }
 
-@media all and (max-width:767px) {
-    .id .sec-1 .container .row .col img {
-        width: 180px;
-        margin-left: 170px;
-        position: absolute;
-        top: 180px;
-    }
-}
-
 /* section section section section section */
 
 .id .sec-2 .container .row:nth-child(1) .col-6 h3{
     font-size: 25px;
     margin-top: 80px;
+}
+
+.id .sec-2 .container .row:nth-child(2) h5 {
+    margin-top: 10px;
 }
 
 .id .sec-2 .container .row p{
@@ -132,6 +150,19 @@
     margin-top: 50px;
 }
 
+@media all and (min-width:768px) and (max-width:1023px) {
+    .sec-3 .container .row:nth-child(1) .col-md-5 h2 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1023px) {
+    .id .sec-3 .container .row:nth-child(2) .col img {
+        margin-left: 30px;
+    }
+}
+
 @media all and (max-width:767px) {
     .sec-3 .container .row:nth-child(1) .col-md-5 h2 {
         font-size: 28px;
@@ -161,6 +192,12 @@
 
 .sec-4 .container .row:nth-child(2) p{
     color: #00856F;
+}
+
+@media all and (min-width:768px) and (max-width:1023px) {
+    .id .sec-4 .container .row:nth-child(2) {
+        margin-top: 30px;
+    }
 }
 
 @media all and (max-width:767px) {
@@ -229,16 +266,33 @@
     color: #64726F;
 }
 
+@media all and (min-width:768px) and (max-width:1023px) {
+    .sec-6 .container .row {
+        margin-top: 50px;
+    }
+}
 
-@media all and (max-width:767px) {
+@media all and (min-width:768px) and (max-width:1023px) {
+    .sec-6 .container .row .col:nth-child(1) {
+        margin-top: 68px;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1023px) {
     .sec-6 .container .row .col:nth-child(4) {
         margin-top: 65px;
     }
 }
 
 @media all and (max-width:767px) {
+    .sec-6 .container .row .col:nth-child(4) {
+        margin-top: 23px;
+    }
+}
+
+@media all and (max-width:767px) {
     .sec-6 .container .row .col:nth-child(1) {
-        margin-top: 50px;
+        margin-top: 10px;
     }
 }
 
