@@ -84,9 +84,6 @@
 @media all and (max-width:767px) {
     .id .sec-1 .container .row:nth-child(1) .col img {
         width: 180px;
-        margin-left: 170px;
-        position: absolute;
-        top: 130px;
     }
 }
 
@@ -94,6 +91,7 @@
     .id .sec-1 .container .row .col .input-group {
         width: 350px;
         height: 30px;
+        margin-top: 20px;
     }
 }
 
@@ -322,4 +320,54 @@
     .sec-6 .container .row .col .img-2 {
         width: 90px;
     }
+}
+
+/* section section section section section */
+
+.id .sec-7 .container{
+    background: #F1F7F6;
+}
+
+.id .sec-7 .container .row:nth-child(1) .col-md-5 h1{
+    font-family: initial;
+    margin-top: 55px;
+}
+
+.id .sec-7 .container .row:nth-child(1) .col-md-5 p {
+    color: #64726F;
+}
+
+.id .sec-7 .container .row:nth-child(2) .col-md-2 {
+    background: white;
+    margin-top: 50px;
+    width: 300px;
+    border: 1px solid rgba(192, 192, 192, 0.386);
+}
+/*  rasim umuman chiqmayaoti
+.id .sec-7 .container .row:nth-child(2) .col-md-2:nth-child(1){
+    background-image: url(./img.2/Frame\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.id .sec-7 .container .row:nth-child(3) .col-md-9 p {
+    color: #64726F;
+    margin-top: 100px;
+    font-family: initial;
+}
+
+.id .sec-7 .container .row:nth-child(3) .col-md-9 span {
+    font-weight: 700;
+}
+
+.id .sec-7 .container .row:nth-child(4) .col-md-5 {
+    margin-top: 70px;
+}
+
+/* section section section section section */
+
+.id .sec-8 .container .row .col h6 {
+    font-family: initial;
+    margin-top: 88px;
+    font-size: 25px;
 }
