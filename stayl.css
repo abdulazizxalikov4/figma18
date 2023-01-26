@@ -86,7 +86,7 @@
         width: 180px;
         margin-left: 170px;
         position: absolute;
-        top: 180px;
+        top: 130px;
     }
 }
 
@@ -148,6 +148,8 @@
 
 .sec-3 .container .row:nth-child(2) .col img {
     margin-top: 50px;
+    margin-left: 50px;
+    
 }
 
 @media all and (min-width:768px) and (max-width:1023px) {
@@ -162,6 +164,8 @@
         margin-left: 30px;
     }
 }
+
+
 
 @media all and (max-width:767px) {
     .sec-3 .container .row:nth-child(1) .col-md-5 h2 {
