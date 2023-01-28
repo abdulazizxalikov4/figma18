@@ -371,3 +371,119 @@
     margin-top: 88px;
     font-size: 25px;
 }
+
+/* section section section section section */
+
+.id .sec-9 .container .row {
+    margin-top: 100px;
+}
+
+.id .sec-9 .container .row .col:nth-child(2) h2 {
+    margin-top: 180px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.id .sec-9 .container .row:nth-child(2) .col {
+    margin-top: 50px;
+} 
+
+.id .sec-9 .container .row:nth-child(2) .col h6 {
+    font-family: initial;
+}
+
+.id .sec-9 .container .row:nth-child(2) .col .row {
+    margin-top: 2px;
+}
+
+@media all and (min-width:768px) and (max-width:1023px) {
+    .id .sec-9 .container .row .col:nth-child(2) h2 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1023px) {
+    .id .sec-9 .container .row .col:nth-child(2) p {
+        font-size: 18px; 
+    }
+}
+
+@media all and (max-width:767px) {
+    .id .sec-9 .container .row .col:nth-child(2) h2 {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .id .sec-9 .container .row .col:nth-child(2) p {
+        font-size: 10px; 
+    }
+}
+
+/* section section section section section */
+
+.sec-10 .container .row {
+    background:  #DCE9E2;
+    margin-top: 130px;
+}
+
+.sec-10 .container .row .col img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sec-10 .container .row .col .row .col {
+    background: white;
+}
+
+.sec-10 .container .row .col .row .col h2 {
+    margin-top: 30px;
+}
+
+.sec-10 .container .row .col .row .col p {
+    color: #00856f78;
+}
+
+.sec-10 .container .row .col .row .col input {
+    margin-bottom: 10px;
+    border: 1px solid silver;
+    height: 40px;
+    width: 300px;
+}
+
+
+.sec-10 .container .row .col .row .col button {
+    margin-bottom: 30px;
+    border: none;
+    background: #00856F;
+    color: white;
+    height: 40px;
+    width: 300px;
+}
+
+@media all and (max-width:767px) {
+    .sec-10 .container .row {
+        display: flex;        
+    flex-direction: column;
+    align-content: center;
+
+    }
+}
+
+@media all and (max-width:767px) {
+    .sec-10 .container .row .col-4 img {
+        margin-top: 50px;
+        margin-left: 1px;
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .sec-10 .container .row .col-4 .row .col h2 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+}
+
